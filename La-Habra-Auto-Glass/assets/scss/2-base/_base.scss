@@ -1,0 +1,128 @@
+/*--------------*\
+    Base
+\*--------------*/
+
+body {
+  font-family: 'Overpass', sans-serif;
+}
+
+.section {
+  padding: 80px 0;
+
+  @include grid-sm-down {
+    padding: 40px 0;
+  }
+}
+
+.btn-cta {
+  background-color: #325ADA;
+  color: #fff;
+  border-radius: 0;
+  border: 1px solid white;
+  padding: 10px 25px;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 30px;
+  
+
+  &:hover {
+    background-color: #1c1c1c;
+    color: #fff;
+  }
+}
+.btn-sub {
+  background-color: #1c1c1c;
+  color: #fff;
+  border-radius: 0;
+  padding: 10px 25px;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 30px;
+  width: 50%;
+  
+
+  &:hover {
+    background-color: #325ADA;
+    color: #fff;
+  }
+}
+
+img {
+  border-radius: 10px;
+  width: 100%;
+}
+.image-with-box {
+  position: relative;
+
+  img {
+      
+      width: 100%; 
+      height: auto; 
+  }
+
+  .square-box {
+      position: absolute;
+      top: -10px;
+      left: 24px;
+      width: 90%;
+      height: 50px;
+      background-color: #325ADA;
+      z-index: -2;
+  }
+}
+
+p {
+  color: #1E293B;
+  font-size: 18px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  a {
+    text-decoration: none;
+    color: #325ADA;
+    &:hover{
+      color: #325ADA;
+    }
+  }
+}
+
+h1 {
+  font-size: 37px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  
+
+  @include grid-sm-down {
+    font-size: 40px;
+  }
+}
+
+h2 {
+  color: #1C1C1C;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+  
+}
+
+
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #325ADA;
+  margin-bottom: 20px;
+}
+h4{
+  font-size: 20px;
+  font-weight: 700;
+  color: #1C1C1C;
+  margin-bottom: 20px;
+}
+.blue{
+  color: #325ADA;
+}
+.white{
+  color: #fff;
+}
+.m-80{
+  margin-bottom: 80px;
+}

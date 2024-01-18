@@ -1,0 +1,53 @@
+/*--------------*\
+    header Section
+\*--------------*/
+
+.header-section{
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(65, 71, 86, 0.2);
+    padding: 15px 0;
+    .navbar{
+        padding: 0;
+        .navbar-brand{
+            img{
+                max-height: 65px;
+                @include grid-sm-down{
+                    max-height: 40px;
+                }
+            }
+        }
+        .navbar-collapse{
+            justify-content: end;
+            .navbar-nav{
+                .nav-item{
+                    .nav-link{
+                        color: #414756;
+                        font-size: 20px;
+                        padding: 15px;
+                    }
+                }
+            }
+            .dropdown-menu{
+                background-color: #ffffff;
+                border: 0;
+                a{
+                    color: #414756;
+                    margin-left: 20px;
+                }
+            }
+        }
+        .navbar-toggler{
+            border: 1px solid #fff;
+            padding: 10px;
+            span{
+                display: block;
+                width: 20px;
+                height: 2px;
+                background-color: $black;
+                & + span{
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}
