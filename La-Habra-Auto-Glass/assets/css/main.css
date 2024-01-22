@@ -61,7 +61,8 @@
   display: flex;
   align-items: center;
 }
-.separator-with-text:before, .separator-with-text:after {
+.separator-with-text:before,
+.separator-with-text:after {
   flex: 1;
   width: 100%;
   content: "";
@@ -78,7 +79,7 @@
   margin-left: -7px;
   margin-right: -7px;
 }
-.row-7 > div[class^=col-] {
+.row-7 > div[class^="col-"] {
   padding-left: 7px;
   padding-right: 7px;
 }
@@ -128,7 +129,7 @@
   content: "•";
 }
 
-i[class*=h-icon-] {
+i[class*="h-icon-"] {
   display: inline-block;
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -158,7 +159,7 @@ body {
 }
 
 .btn-cta {
-  background-color: #325ADA;
+  background-color: #325ada;
   color: #fff;
   border-radius: 0;
   border: 1px solid white;
@@ -183,7 +184,7 @@ body {
   width: 50%;
 }
 .btn-sub:hover {
-  background-color: #325ADA;
+  background-color: #325ada;
   color: #fff;
 }
 
@@ -205,21 +206,21 @@ img {
   left: 24px;
   width: 90%;
   height: 50px;
-  background-color: #325ADA;
+  background-color: #325ada;
   z-index: -2;
 }
 
 p {
-  color: #1E293B;
+  color: #1e293b;
   font-size: 18px;
   font-family: "Montserrat Alternates", sans-serif;
 }
 p a {
   text-decoration: none;
-  color: #325ADA;
+  color: #325ada;
 }
 p a:hover {
-  color: #325ADA;
+  color: #325ada;
 }
 
 h1 {
@@ -234,7 +235,7 @@ h1 {
 }
 
 h2 {
-  color: #1C1C1C;
+  color: #1c1c1c;
   font-size: 35px;
   font-weight: 700;
   line-height: 1.5em;
@@ -244,19 +245,19 @@ h2 {
 h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #325ADA;
+  color: #325ada;
   margin-bottom: 20px;
 }
 
 h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #1C1C1C;
+  color: #1c1c1c;
   margin-bottom: 20px;
 }
 
 .blue {
-  color: #325ADA;
+  color: #325ada;
 }
 
 .white {
@@ -466,8 +467,8 @@ h4 {
   text-align: center;
 }
 .testimonial-slider .carousel-item img {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -492,16 +493,23 @@ h4 {
   text-align: center;
   margin-bottom: 20px;
 }
+
+.choose-us-section .card-spacing {
+  max-width: 760px;
+  margin: auto;
+  margin-top: 3rem;
+}
 .choose-us-section .choose-card {
   text-align: center;
   max-width: 400px;
+  width: 100%;
   margin: 0 auto;
   border: 1px solid #ccc;
   padding: 24px;
   text-align: center;
   margin-bottom: 20px;
   transition: box-shadow 0.3s ease;
-  min-height: 310px;
+  min-height: 320px;
 }
 .choose-us-section .choose-card i {
   font-size: 24px;
@@ -560,7 +568,7 @@ h4 {
 }
 .location-section ul li a {
   text-decoration: none;
-  color: #325ADA;
+  color: #325ada;
 }
 .location-section iframe {
   width: 100%;
