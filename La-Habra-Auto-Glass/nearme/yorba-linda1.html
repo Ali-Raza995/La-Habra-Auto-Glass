@@ -398,7 +398,7 @@
         <div class="row">
           <div class="col-lg-6">
             <img
-              src="../assets/images/experience-the-convenience-of-same-day-mobile-auto-glass.jpg"
+              src="../assets/images/experience-the-convenience-of-same-day-mobile-with-la-habra-auto-glass.jpg"
               class="img-fluid"
               alt="Experience the Convenience of Same-Day Mobile Auto Glass Repair in Yorba Linda"
             />
@@ -512,7 +512,7 @@
       </div>
     </section>
 
-    <section class="call-action-section m-80">
+    <section class="call-action-section m-80 mt-5">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
@@ -530,6 +530,17 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <section class="widget-section">
+      <a
+        class="weatherwidget-io"
+        href="https://forecast7.com/en/33d89n117d81/yorba-linda/?unit=us"
+        data-label_1="YORBA LINDA"
+        data-label_2="WEATHER"
+        data-theme="original"
+        >YORBA LINDA WEATHER</a
+      >
     </section>
 
     <footer class="footer-section">
@@ -622,12 +633,22 @@
 
     <footer class="footer-bottom-section">
       <div class="container">
-        <p>
-          © 2024 La Habra Auto Glass Repair, Replacement & Windshield Services
-        </p>
+        <p>© 2024 La Habra Auto Glass</p>
       </div>
     </footer>
 
+    <script>
+      !(function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (!d.getElementById(id)) {
+          js = d.createElement(s);
+          js.id = id;
+          js.src = "https://weatherwidget.io/js/widget.min.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }
+      })(document, "script", "weatherwidget-io-js");
+    </script>
     <script src="../assets/js/bootstrap.bundle.min.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="../assets/js/main.js"></script>

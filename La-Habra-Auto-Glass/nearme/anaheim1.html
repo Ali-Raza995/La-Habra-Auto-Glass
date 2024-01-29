@@ -434,7 +434,11 @@
               <br /><br />
               Anaheim is known for its many points of interest, including
               Disneyland Resort, which is one of the most popular tourist
-              destinations in the world.
+              destinations in the world. The resort includes two theme parks,
+              Disneyland Park and Disney California Adventure, as well as
+              several hotels, restaurants, and shopping areas. Another popular
+              attraction in Anaheim is Angel Stadium, which is home to the Los
+              Angeles Angels baseball team.
             </p>
           </div>
           <div class="col-lg-6">
@@ -485,6 +489,17 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <section class="widget-section">
+      <a
+        class="weatherwidget-io"
+        href="https://forecast7.com/en/33d84n117d91/anaheim/?unit=us"
+        data-label_1="ANAHEIM"
+        data-label_2="WEATHER"
+        data-theme="original"
+        >ANAHEIM WEATHER</a
+      >
     </section>
 
     <footer class="footer-section">
@@ -581,6 +596,18 @@
       </div>
     </footer>
 
+    <script>
+      !(function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (!d.getElementById(id)) {
+          js = d.createElement(s);
+          js.id = id;
+          js.src = "https://weatherwidget.io/js/widget.min.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }
+      })(document, "script", "weatherwidget-io-js");
+    </script>
     <script src="../assets/js/bootstrap.bundle.min.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="../assets/js/main.js"></script>
