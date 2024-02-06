@@ -1,0 +1,68 @@
+/*--------------*\
+    Base
+\*--------------*/
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.section {
+  padding: 80px 0;
+
+  @include grid-sm-down {
+    padding: 40px 0;
+  }
+}
+
+.btn-cta {
+  background-color: #ff9639;
+  color: #fff;
+  border-radius: 0;
+  padding: 10px 25px;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 30px;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+p {
+  a {
+    text-decoration: none;
+    color: #ff9639;
+    &:hover{
+      color: #ff9639;
+    }
+  }
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 50px;
+
+  @include grid-sm-down {
+    font-size: 40px;
+  }
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.5em;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #ff9639;
+  margin-bottom: 20px;
+}
