@@ -230,6 +230,7 @@
     <section class="hero-section">
       <div class="container">
         <h2 class="text-white m-0">Mobile Auto Glass OC</h2>
+        <h3>Orange's Premier Windshield Repairs</h3>
         <button>
           <i class="fa-solid fa-phone"></i>
           <a href="tel:+19494918593">(949)-491-8593</a>
@@ -282,9 +283,9 @@
           </div>
           <div class="col-lg-6">
             <img
-              src="/assets/images/auto-glass-repair-and-windshield-replacement-orange-CA.jpg"
+              src="/assets/images/Auto-Glass-Repair-And-Replacement-in-Orange-County.jpg"
               class="img-fluid"
-              alt="Auto Glass Repair and Windshield Replacement in Orange, CA"
+              alt="Auto Glass Repair & Replacement in Orange County"
             />
           </div>
         </div>
@@ -345,9 +346,9 @@
           </div>
           <div class="col-lg-6">
             <img
-              src="/assets/images/about-orange-ca.jpg"
+              src="/assets/images/about-orange-county--CA.jpg"
               class="img-fluid"
-              alt="Orange, CA"
+              alt="About Orange County, CA"
             />
           </div>
         </div>
@@ -362,6 +363,17 @@
       allowfullscreen=""
       referrerpolicy="no-referrer-when-downgrade"
     ></iframe>
+
+    <section class="my-5">
+      <a
+        class="weatherwidget-io"
+        href="https://forecast7.com/en/33d79n117d85/orange/?unit=us"
+        data-label_1="ORANGE"
+        data-label_2="WEATHER"
+        data-theme="original"
+        >ORANGE WEATHER</a
+      >
+    </section>
 
     <footer class="footer-section">
       <div class="container">
@@ -457,7 +469,18 @@
         </p>
       </div>
     </footer>
-
+    <script>
+      !(function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (!d.getElementById(id)) {
+          js = d.createElement(s);
+          js.id = id;
+          js.src = "https://weatherwidget.io/js/widget.min.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }
+      })(document, "script", "weatherwidget-io-js");
+    </script>
     <script src="/assets/js/bootstrap.bundle.min.js"></script>
     <script src="/assets/js/main.js"></script>
   </body>

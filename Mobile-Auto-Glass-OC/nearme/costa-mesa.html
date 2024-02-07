@@ -337,18 +337,48 @@
             </p>
             <h3 class="mb-2 mt-5">About Costa Mesa, CA</h3>
             <p>
-              Costa Mesa, a city in Orange County, California, with around
-              113,003 residents, is known for its vibrant arts and theater
-              scene, diverse dining, and shopping centers. Whether seeking
-              cultural experiences, delicious meals, or shopping adventures,
-              Costa Mesa has something for everyone.
+              Costa Mesa is a city located in Orange County, Southern
+              California, United States. The city lies on a coastal plateau
+              overlooking the Pacific Ocean, at the mouth of the Santa Ana
+              River, 37 miles (60 km) southeast of Los Angeles. With Newport
+              Beach, it forms Orange County's "Harbor Area."
+            </p>
+            <p>
+              The area was originally inhabited by Shoshone Indians, who formed
+              a village named Lukup along the Santa Ana River. With the coming
+              of the Spanish, the land was divided. The city site, once part of
+              Rancho Santiago de Santa Ana and the Irvine Ranch, became the
+              hot-springs resort of Fairview. In 1889, however, flooding damaged
+              the railroad connection to the city, and thereafter farming became
+              the chief industry. Principal crops included apples, strawberries,
+              sweet potatoes, and tomatoes.
+            </p>
+
+            <p>
+              Laid out in 1906 as the town of Harper, it was renamed Costa Mesa
+              (Spanish: "Coastal Tableland") in 1920 for its location. Oil
+              drilling soon supplemented the economy. As of the 2020 United
+              States Census, Costa Mesa had a population of 113,003. The city
+              has a diverse population, with a mix of White, Hispanic or Latino,
+              Asian, and other ethnicities. Costa Mesa is known for its vibrant
+              retail and dining scene, with popular shopping destinations such
+              as South Coast Plaza. The city's spending capacity is influenced
+              by its diverse population and its position as a retail and
+              commercial hub in Orange County.
+            </p>
+            <p>
+              The approximate coordinates of Costa Mesa are 33.6411° N latitude
+              and 117.9187° W longitude. Costa Mesa is home to a variety of
+              attractions, including the Segerstrom Center for the Arts, South
+              Coast Plaza, and the OC Fair & Event Center. The city also offers
+              proximity to beautiful beaches and outdoor recreational areas.
             </p>
           </div>
           <div class="col-lg-6">
             <img
-              src="/assets/images/about-costa-mesa-CA.jpg"
+              src="/assets/images/about-costa-mesa-CA.jpeg"
               class="img-fluid"
-              alt="about costa mesa CA"
+              alt="About Costa Mesa, CA"
             />
           </div>
         </div>
@@ -364,6 +394,17 @@
         allowfullscreen=""
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
+    </section>
+
+    <section class="my-5">
+      <a
+        class="weatherwidget-io"
+        href="https://forecast7.com/en/33d64n117d92/costa-mesa/?unit=us"
+        data-label_1="COSTA MESA"
+        data-label_2="WEATHER"
+        data-theme="original"
+        >COSTA MESA WEATHER</a
+      >
     </section>
 
     <footer class="footer-section">
@@ -459,7 +500,18 @@
         </p>
       </div>
     </footer>
-
+    <script>
+      !(function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (!d.getElementById(id)) {
+          js = d.createElement(s);
+          js.id = id;
+          js.src = "https://weatherwidget.io/js/widget.min.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }
+      })(document, "script", "weatherwidget-io-js");
+    </script>
     <script src="/assets/js/bootstrap.bundle.min.js"></script>
     <script src="/assets/js/main.js"></script>
   </body>
