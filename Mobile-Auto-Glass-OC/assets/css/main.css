@@ -748,4 +748,149 @@ ul.location-list li::before {
   border-radius: 10px;
 }
 
+
+
+/* Things To Do in La Habra, CA Section  */
+
+.unique.faq .content h3 {
+  font-weight: 400;
+  font-size: 34px;
+}
+
+.unique.faq .content p {
+  font-size: 15px;
+  color: rgba(var(--default-color-rgb), 0.7);
+}
+
+.unique.faq .faq-container .faq-item {
+  position: relative;
+  /* padding: 20px; */
+  margin-bottom: 0px;
+  box-shadow: 0px 5px 5px 0px #f5f5f5;
+  overflow: hidden;
+}
+
+.unique.faq .faq-container .faq-item:last-child {
+  margin-bottom: 0;
+}
+
+.unique.faq .faq-container .faq-item h3 {
+  font-weight: 600;
+  font-size: 16px;
+  /* line-height: 24px; */
+  margin: 15px 30px 10px 15px;
+  transition: 0.3s;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+}
+
+.unique.faq .faq-container .faq-item h3 .num {
+  color: #50a5dc;
+  padding-right: 5px;
+}
+
+.unique.faq .faq-container .faq-item h3:hover {
+  color: #50a5dc;
+}
+
+.unique.faq .faq-container .faq-item .faq-content {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: 0.3s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+}
+
+.unique.faq .faq-container .faq-item .faq-content p {
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.unique.faq .faq-container .faq-item .faq-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 16px;
+  line-height: 0;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.unique.faq .faq-container .faq-item .faq-toggle:hover {
+  color: #50a5dc;
+}
+
+.unique.faq .faq-container .faq-active h3 {
+  color: #50a5dc;
+}
+
+.unique.faq .faq-container .faq-active .faq-content {
+  grid-template-rows: 1fr;
+  visibility: visible;
+  opacity: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 15px;
+  display: grid;
+}
+
+.unique.faq .faq-container .faq-active .faq-toggle {
+  transform: rotate(90deg);
+  color: #50a5dc;
+}
+
 /*# sourceMappingURL=main.css.map */
+
+/*--------------------------------------------------------------
+# Location Services
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Location Services
+--------------------------------------------------------------*/
+.location-services .icon-box {
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  padding: 30px 30px;
+  transition: all ease-in-out 0.4s;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.location-services .icon-box .icon {
+  margin-bottom: 10px;
+}
+
+.location-services .icon-box .icon i {
+  color: #47b2e4;
+  font-size: 36px;
+  transition: 0.3s;
+}
+
+.location-services .icon-box h4 {
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.location-services .icon-box h4 a {
+  color: #37517e;
+  transition: ease-in-out 0.3s;
+}
+
+.location-services .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.location-services .icon-box:hover {
+  transform: translateY(-10px);
+}
+
+.location-services .icon-box:hover h4 a {
+  color: #47b2e4;
+}
+
+
