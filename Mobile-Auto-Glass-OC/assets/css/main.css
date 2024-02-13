@@ -212,6 +212,16 @@ h3 {
   color: #ff9639;
   margin-bottom: 20px;
 }
+.about-section .row  h2 {
+  text-align: start;
+  color: #ff9639;
+  margin-bottom: 20px;
+}
+/* .point-section .container h2 {
+  color: #ff9639;
+  margin-bottom: 20px;
+} */
+
 
 /*--------------*\
     Form Section
